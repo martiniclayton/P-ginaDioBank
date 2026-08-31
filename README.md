@@ -1,3 +1,35 @@
+# Projeto Dio Bank
+
+Projeto simples de uma página de login inicial feita com React
+
+# Tecnologias Utilizadas
+React
+TypeScript
+Vite
+Chakra UI
+
+# Como Rodar o Projeto 
+Clone este repositório e siga os passos abaixo:
+
+1. Clone o repositório:
+```bash
+git clone <url-do-seu-repositorio-no-github>
+
+Entre na pasta do projeto:
+cd DioBank
+
+Instale as dependências:
+npm install
+
+Inicie o servidor de desenvolvimento:
+npm run dev
+
+##  Autor
+
+Desenvolvido por [Clayton Timoteo ](https://github.com/martiniclayton).
+
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
