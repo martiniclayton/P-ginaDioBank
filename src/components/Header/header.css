@@ -1,0 +1,25 @@
+.header{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header a{
+    color: white;
+}
+
+.header .nav{
+    display: flex;
+    gap: 10px;
+}
+
+.header .nav a{
+    transition: .3s ease;
+}
+
+.header .nav a:hover{
+    color: gray;
+}
