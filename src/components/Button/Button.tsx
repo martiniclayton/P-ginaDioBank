@@ -2,13 +2,13 @@ import { Button } from "@chakra-ui/react";
 import { Provider } from "../ui/provider";
 
 interface ButtonLogin {
-    funcao: () => void;
+    onClick: () => void;
 }
 
-export const ButtonLogin = ({funcao}: ButtonLogin) =>{
+export const ButtonLogin = ({onClick}: ButtonLogin) =>{
     return(
         <Provider>
-            <Button width={"100%"} variant="solid" onClick={funcao}>Entrar</Button>
+            <Button width={"100%"} variant="solid" onClick={onClick}>Entrar</Button>
         </Provider>
     )
 }
